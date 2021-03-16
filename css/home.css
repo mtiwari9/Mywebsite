@@ -1,0 +1,79 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: #fff url('https://media.giphy.com/media/3ohhwFhUCOXOJfuttC/giphy.gif')
+	no-repeat center;
+	z-index: 99999;
+	
+}
+
+	.navbar-nav .nav-item .nav-link
+	 
+	 {
+	       padding-right:40px;                   
+           font-weight: 400;
+           font-size: 18px;
+           color: white;
+           font-weight: bold;
+           
+	 }
+	 .logo{
+	 	   width:90px;
+	 	   height: 80px; 
+	 	   margin-left: 30px;
+	 }
+
+	 @media(max-width: 600px)
+	 {
+	 	.logo{
+	 		display: block;
+	 	}
+	 	.a{
+		background-color:green;
+	       }
+	      
+	 }
+
+	.drop{
+		    width: 147px;
+            height: 25px;
+            background-image: linear-gradient(45deg, #2e1ef6, #b14bdb);
+            color: white;
+            font-weight: 500;
+	} 	
+	.image{
+		    width: 370px;
+            height: 350px;
+            padding: 5px;
+	}
+	.head{
+		    font-family: cursive;
+            color:#09187e;
+            background-color:#52fff49e;;
+	}
+	.button1{
+		    width: 140px;
+            height: 30px;
+            background-color: #ed3a3a;
+            font-weight: 700;
+	}
+	.button{
+		   width: 170px;
+           height:35px;
+           font-weight: 700;
+           font-size: 20px;
+           background-color: #ed3a3a;
+           position: relative;
+           top: 2px;
+	}
+	.name{
+		   font-size: 40px;
+           font-family: cursive;
+           color: blueviolet;
+	}
+	
